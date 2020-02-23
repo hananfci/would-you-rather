@@ -22,12 +22,16 @@ export function handlesavequestionanswer (autheduser, qid, answer) {
   return (dispatch) => {
     dispatch(showLoading());
     debugger;
-    return saveQuestionAnswer(autheduser, qid,answer)
-      .then(() => {
+    var obj={
+      autheduser:autheduser,
+       qid:qid,
+        answer :answer
+        }
+    return saveQuestionAnswer(obj).then(() => {
+        debugger;       
         dispatch(savequestionanswer(autheduser, qid,answer))
         dispatch(saveUserAnswer(autheduser, qid,answer))
         dispatch(hideLoading());
       })
   }
 }
-

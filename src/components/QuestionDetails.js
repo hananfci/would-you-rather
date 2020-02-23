@@ -17,7 +17,7 @@ class QuestionDetails extends Component {
   }
 
   handelchoice(e){   
-    alert( e.target.value) 
+    //alert( e.target.value) 
   this.setState({anweredselect : e.target.value});   
  }
 
@@ -28,9 +28,9 @@ class QuestionDetails extends Component {
  
    const { id } =this.props.match.params;
   const { anweredselect } = this.state;
-  alert(autheduser);
-  alert(anweredselect);
-  alert(id);
+  //alert(autheduser);
+  //alert(anweredselect);
+  //alert(id);
 
   handleanswer(autheduser,id,anweredselect)
  
