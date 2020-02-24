@@ -1,5 +1,5 @@
 
-import {RECEIVE_USERS, USER_ANSWER_QUESTION } from '../actions/users'
+import {RECEIVE_USERS, USER_ANSWER_QUESTION ,USER_ADD_QUESTION } from '../actions/users'
 
 
 export default function users (state = {}, action) {
@@ -20,7 +20,14 @@ export default function users (state = {}, action) {
           }
        
         };
-       
+        case USER_ADD_QUESTION:
+          return {
+            ...state,
+            [action.authedUser]: {
+              ...state[action.authedUser],
+              questions: state[action.authedUser].questions.concat([action.qid])
+            }
+          };
     default :
       return state
   }
