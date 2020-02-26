@@ -1,5 +1,5 @@
 
-import {RECEIVE_QUESTIONS,SAVE_QUESTION_ANSWER,ADD_QUESTION} from '../actions/questions'
+import {RECEIVE_QUESTIONS,SAVE_QUESTION_ANSWER, ADD_QUESTION} from '../actions/questions'
 
 
 

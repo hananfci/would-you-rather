@@ -17,7 +17,7 @@ export function saveUserAnswer (autheduser, qid, answer) {
 }
 export function addUserQuestion(autheduser,qid){
   return{
-    trpe:USER_ADD_QUESTION,
+    type:USER_ADD_QUESTION,
     autheduser,
     qid
   }

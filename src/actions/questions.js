@@ -21,7 +21,7 @@ export function receiveQuestions (questions) {
 
   export function addQuestion (question ) {
     return {
-      type: SAVE_QUESTION_ANSWER,
+      type: ADD_QUESTION,
       question
     }
   }

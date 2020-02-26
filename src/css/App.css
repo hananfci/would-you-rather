@@ -22,6 +22,10 @@ body {
 .img-logo{
     margin-right: 10px!important;
     border-radius: 46%;
+    width: 9%;
+}
+.table td, .table th {
+    vertical-align: middle;
 }
 .info-mrg-top{
     margin-top:10px;

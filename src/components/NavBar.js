@@ -29,7 +29,7 @@ class NavBAr extends Component {
       <Menu.Item
         name='Leader Board'
         as={NavLink}
-        exact to="/leaderboard"        
+        exact to="/Leaderbored"        
         active={activeItem === 'LeaderBoard'}
       />
        

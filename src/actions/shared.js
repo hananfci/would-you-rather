@@ -45,7 +45,7 @@ export function handlesavequestionanswer (autheduser, qid, answer) {
 export function handeladdquestion (optionOneText,optionTwoText,autheduser)
 {
   return (dispatch) => {
-    dispatch(showLoading());
+    //dispatch(showLoading());
     var objadd={
       optionOneText:optionOneText,
       optionTwoText :optionTwoText,      
@@ -55,6 +55,7 @@ export function handeladdquestion (optionOneText,optionTwoText,autheduser)
             debugger; 
           dispatch(addQuestion(question));
           dispatch(addUserQuestion(autheduser, question.id))
+          //dispatch(hideLoading());
       })
 
   }

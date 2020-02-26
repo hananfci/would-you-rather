@@ -64,7 +64,7 @@ import Question from './Question';
 
     const unansweredQuestions = Object.keys(questions).filter(qid => !answeredQuestions.includes(qid))
     .sort((a,b) => questions[b].timestamp - questions[a].timestamp)
-    console.log("unanswertttttt",unansweredQuestions)
+   // console.log("unanswertttttt",unansweredQuestions)
     const lenghanswer =answeredQuestions.length;
    const lenghunanswer =unansweredQuestions.length;
   /*   console.log("len answer",lenghanswer)
