@@ -41,9 +41,7 @@ handleOptionTwoChange = (event) => {
   const {autheduser,handleaddnewquestion} = this.props;
  
   const { optionOnetext,optionTwotext } = this.state;
-  alert(optionTwotext);
-  alert(optionOnetext);
- alert(autheduser);
+
 
  handleaddnewquestion(optionOnetext,optionTwotext,autheduser)
  this.setState({
@@ -64,7 +62,7 @@ handleOptionTwoChange = (event) => {
 
  <Form onSubmit={this.handleSubmit}>
  <Row>
- <Col sm={8}>
+ <Col sm="12" md={{ size: 6, offset: 3 }}>
      <Fragment>
 <Card body>
 <CardTitle>Create New Question</CardTitle>

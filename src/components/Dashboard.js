@@ -14,7 +14,7 @@ import Question from './Question';
 
   return (
     <Row>
-      <Col md={{ span:5, offset:7}}>
+      <Col sm="12" md={{ size: 6, offset: 3 }}>
           <Fragment>
 
           <Tabs className="tab-container-with-green-border" headerClass="tab-header-bold" activeHeaderClass="tab-header-blue" contentClass="tab-content-yellow">

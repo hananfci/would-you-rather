@@ -47,7 +47,7 @@ class QuestionDetails extends Component {
 
     isanswered?
     <Row>
- <Col md={{ span:5, offset:7}}>
+ <Col sm="12" md={{ size: 6, offset: 3 }}>
      <Fragment>
 <Card body>
 <CardTitle> Asked By {question.author}</CardTitle>
@@ -138,7 +138,7 @@ class QuestionDetails extends Component {
 
  <Form  onSubmit={this.handleSubmit}>
  <Row>
- <Col md={{ span:5, offset:7}}>
+ <Col sm="12" md={{ size: 6, offset: 3 }}>
      <Fragment>
 <Card body>
 <CardTitle>{question.author}</CardTitle>
