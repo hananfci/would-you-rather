@@ -2,8 +2,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
 
+To get started developing right away:
+* install `npm i redux react-redux redux-thunk bootstrap react-router-dom react-redux-loading`
+* install `yarn add redux-thunk `
+* install `yarn add bootstrap@4.0.0-alpha.6 --dev`
+* install `yarn add semantic-ui-react`
+* start the development server with `yarn start`
+
+
+
+
+
+
+In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.<br />
