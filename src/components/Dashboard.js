@@ -1,7 +1,7 @@
 import React, {Fragment,Component} from 'react';
 import { connect } from 'react-redux'
 import {Tabs, Tab} from 'react-bootstrap-tabs';
-import { Row, Col,Card,  CardTitle, CardText,Button } from 'reactstrap';
+import { Row, Col} from 'reactstrap';
 import Question from './Question';
 
 

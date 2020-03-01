@@ -179,14 +179,12 @@ class QuestionDetails extends Component {
   }
 }
 
-function financial(x) {
-  return Number.parseFloat(x).toFixed(2);
-}
+
   function mapStateToProps ({ questions, users, autheduser }, props) {
     const user = users[autheduser];
 
     const answers = users[autheduser].answers;
-    console.log("swered",answers)
+    console.log("answers object",answers)
  
     const { id } = props.match.params;
     const queanswered =Object.keys(user.answers)
@@ -194,6 +192,7 @@ function financial(x) {
     const isanswered = queanswered.includes(id)
 
     const question =questions[id]
+    console.log("question select",question)
     const  optionselect = answers[question.id]
     console.log("optionselect",optionselect)
 
