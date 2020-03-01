@@ -208,13 +208,6 @@ class QuestionDetails extends Component {
       Math.round((voteCountOptionTwo / totalVotes) * 10000) / 100;
 
 
-
-
-   /*  const total = question.optionOne.votes.length + question.optionTwo.votes.length;
-    const percOne = financial((question.optionOne.votes.length / total) * 100);
-    console.log("percOne",percOne)
-    const percTwo = financial((question.optionTwo.votes.length / total) * 100);
-    console.log("percTwo",percTwo) */
      console.log("que",isanswered)
   return {
     users,

@@ -1,5 +1,5 @@
-import React, { Component,Fragment } from "react";
-import {Row, Col,Table } from 'reactstrap';
+import React, { Component } from "react";
+import {Table } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { connect } from 'react-redux';
 
